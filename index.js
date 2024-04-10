@@ -6,6 +6,8 @@ const btn = document.getElementById("btn");
 
 btn.addEventListener("click", getQuote);
 
+//fetch functions to display the quotes
+
 function getQuote() {
   fetch(api)
     .then((res) => res.json())
