@@ -2,14 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: grey;
+  /* background-color: grey; */
   position: relative;
 }
 
 h1 {
   text-align: center;
 }
-
+span{
+  color: #FF6600;
+}
 .container {
   max-width: 600px;
   margin: 50px auto;
@@ -35,7 +37,7 @@ h1 {
 button {
   padding: 20px 30px;
   font-size: 20px;
-  background-color: #007bff;
+  background-color: #FF6600;
   color: #fff;
   border: none;
   border-radius: 5px;
