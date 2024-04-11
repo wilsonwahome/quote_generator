@@ -7,7 +7,7 @@ This project uses the [Quotable API](https://api.quotable.io/random) to fetch ra
 
 ![project preview](./preview.png)
 
-[link to the website](https://quote-generator-five-beta.vercel.app/)
+- [link to the website](https://quote-generator-five-beta.vercel.app/)
 ## Setup
 To use QuoteQuest, follow these steps:
 1. Clone this repository to your local machine.
