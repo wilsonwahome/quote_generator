@@ -16,3 +16,12 @@ function getQuote() {
       author.innerHTML = `- by ${data.author}`;
     });
 }
+//Event listener for key press
+document.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    getQuote();
+  }
+});
+//load page to fetch initial quote
+window.addEventListener("load", getQuote);
